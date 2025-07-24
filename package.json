@@ -1,0 +1,20 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "app for training",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamesas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17"
+  }
+}
