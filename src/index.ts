@@ -1,7 +1,7 @@
 import app from "./server";
-import hostListener from "./helpers/listener";
+import hostListener from "./helpers/hostListener";
 
-const PORT = 3000;
+const PORT = 8080;
 
 app
   .listen(PORT, "0.0.0.0", () => hostListener(PORT))
